@@ -1,4 +1,4 @@
-# Jogo da forca, sem forca e sem desenho :P
+# Jogo da forca, sem desenho :P
 secreto = 'perfume'
 digitadas = []
 chances = 3
