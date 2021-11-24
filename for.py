@@ -20,3 +20,12 @@ for letra in texto:
     else:
         texto2 += letra
 print(texto2)
+
+textos = ['qualquer', 'python', 'um']
+for palavra in textos:
+    if palavra.lower().startswith('p'):
+        print('começa com p')
+        break  # se o laço não for quebrado o else sera executado
+    print(palavra)
+else:
+    print("não começa com P")
